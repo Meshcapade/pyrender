@@ -153,7 +153,7 @@ class EGLPlatform(Platform):
             EGL_NONE
         ])
         context_attributes = arrays.GLintArray.asArray([
-            EGL_CONTEXT_MAJOR_VERSION, 4,
+            EGL_CONTEXT_MAJOR_VERSION, 3,
             EGL_CONTEXT_MINOR_VERSION, 1,
             EGL_CONTEXT_OPENGL_PROFILE_MASK,
             EGL_CONTEXT_OPENGL_CORE_PROFILE_BIT,
